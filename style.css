@@ -1,7 +1,7 @@
 .container{
-    background: greenyellow;
+    background: none;
     position: relative;
-    height: 600vh;
+    height: 300vh;
     left: 10%;
     width: 80%;
     outline: none;
@@ -22,12 +22,12 @@
     margin: 10px;
     padding: 10px;
     font-size: 35px;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 1);
     opacity: 0;
     transition: .6s;
 }
 [data-animate="left"],[data-animate="right"]{
-    width: 40%;
+    width: max(46%,350px);
     vertical-align: top;
 }
 [data-animate="left"]{
